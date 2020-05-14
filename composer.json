@@ -1,0 +1,15 @@
+{
+    "name": "thinkpad/moodle",
+    "authors": [
+        {
+            "name": "PlatoSys",
+            "email": "platoniinjgia@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "app\\": "."
+        }
+    }
+}
