@@ -3,7 +3,6 @@ $params = $params ?? [];
 $errors = $errors ?? [];
 $data    = $data ?? [];
 
-
 ?>
 
 <h1>Contact Page</h1>

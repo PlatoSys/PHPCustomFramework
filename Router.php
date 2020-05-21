@@ -53,8 +53,7 @@ class Router
     {
         $content = $this->renderOnlyView($view,$params);
         ob_start();
-        if($view == 'register' or $view == 'login')  include_once __DIR__.'/views/_layout1.php';
-        else include_once __DIR__.'/views/_layout.php';
+        include_once __DIR__.'/views/_layout.php';
         return ob_get_clean();
     }
 

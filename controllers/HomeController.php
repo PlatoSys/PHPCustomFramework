@@ -30,12 +30,15 @@ class HomeController
             'data' => $data
         ];
 
-        if (empty($errors)){
-            header("Location: http://localhost:8080/about");
-        }
+        echo '<pre>';
+        var_dump($params);
+        echo '<pre>';
+
+//        if (empty($errors)){
+//            header("Location: http://localhost:8080/about");
+//        }
         return $router->renderView('contact',$params);
     }
-
 
 
 }
